@@ -1,4 +1,4 @@
-# temadagar-android
+# temadagar-ios
 
 > Temadagar is an app made to view all special days like "Cinnamon bun day" or "Pancake day". Feel free to look at the source code if you want to learn something about how to use a RecyclerView or maybe a AsyncTask
 
