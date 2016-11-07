@@ -25,21 +25,21 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         UIApplication.sharedApplication().statusBarStyle = .LightContent
 
         
+       
+        // FCM regsiter
+        let settings: UIUserNotificationSettings = UIUserNotificationSettings(forTypes: [.alert, .badge, .sound], categories: nil)
+        application.registerUserNotificationSettings(settings)
+        application.registerForRemoteNotifications()
         
-        //UINavigationBar.appearance().setBackgroundImage(UIImage(), forBarMetrics: .Default)
-        // Sets shadow (line below the bar) to a blank image
-// UINavigationBar.appearance().shadowImage = UIImage()
-        // Sets the translucent background color
-        
-        //UINavigationBar.appearance().bar = UIColor(red: 244.0, green: 67.0, blue: 57.0, alpha: 1.0)
-        
-        // Set translucent. (Default value is already true, so this can be removed if desired.)
-        //UINavigationBar.appearance().translucent = true
-
         
         return true
     }
 
+    
+    
+
+    
+    
     func applicationWillResignActive(application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
         // Use this method to pause ongoing tasks, disable timers, and throttle down OpenGL ES frame rates. Games should use this method to pause the game.

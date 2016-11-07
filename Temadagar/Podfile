@@ -1,12 +1,13 @@
 platform :ios, '8.0'
 use_frameworks!
 
-xcodeproj '/Users/alvar/Desktop/Temadagar/Temadagar/temadagar.xcodeproj'
+xcodeproj '/Users/alvar/git/temadagar-ios/Temadagar.xcodeproject/'
 
 target 'Temadagar' do
 pod 'SwiftyJSON'
 pod 'ImageLoader'
 pod 'Firebase'
 pod 'Firebase/Core'
+pod 'Firebase/Messaging'
 pod 'Alamofire'
 end
