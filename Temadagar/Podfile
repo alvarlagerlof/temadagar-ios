@@ -1,0 +1,12 @@
+platform :ios, '8.0'
+use_frameworks!
+
+xcodeproj '/Users/alvar/Desktop/Temadagar/Temadagar/temadagar.xcodeproj'
+
+target 'Temadagar' do
+pod 'SwiftyJSON'
+pod 'ImageLoader'
+pod 'Firebase'
+pod 'Firebase/Core'
+pod 'Alamofire'
+end

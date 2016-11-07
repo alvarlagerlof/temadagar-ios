@@ -1,0 +1,700 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		24008A7A1D805C980055532D /* PopularViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24008A791D805C980055532D /* PopularViewCell.swift */; };
+		240304A41D8043AF00A39372 /* AllViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240304A31D8043AF00A39372 /* AllViewCell.swift */; };
+		2413683E1DB3D6E5006DB42A /* DayInfo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2413683D1DB3D6E5006DB42A /* DayInfo.storyboard */; };
+		241368401DB3DAAD006DB42A /* New.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2413683F1DB3DAAD006DB42A /* New.storyboard */; };
+		241368421DB3DB40006DB42A /* All.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 241368411DB3DB40006DB42A /* All.storyboard */; };
+		241368441DB3DBB0006DB42A /* Popular.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 241368431DB3DBB0006DB42A /* Popular.storyboard */; };
+		243CC3881D7F2C0E008C7F56 /* NewViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243CC3871D7F2C0E008C7F56 /* NewViewCell.swift */; };
+		243CC38A1D7F2C1B008C7F56 /* ListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243CC3891D7F2C1B008C7F56 /* ListItem.swift */; };
+		246E402F1D813A7E0026849B /* BaseTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246E402E1D813A7E0026849B /* BaseTabBarController.swift */; };
+		24BAFD0E1D4359B00018D7BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BAFD0D1D4359B00018D7BE /* AppDelegate.swift */; };
+		24BAFD151D4359B00018D7BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24BAFD131D4359B00018D7BE /* Main.storyboard */; };
+		24BAFD171D4359B00018D7BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24BAFD161D4359B00018D7BE /* Assets.xcassets */; };
+		24BAFD1A1D4359B00018D7BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24BAFD181D4359B00018D7BE /* LaunchScreen.storyboard */; };
+		24BAFD251D4359B00018D7BE /* TemadagarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BAFD241D4359B00018D7BE /* TemadagarTests.swift */; };
+		24BAFD301D4359B00018D7BE /* TemadagarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BAFD2F1D4359B00018D7BE /* TemadagarUITests.swift */; };
+		24BAFD401D435F260018D7BE /* AllViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BAFD3F1D435F260018D7BE /* AllViewController.swift */; };
+		24BAFD421D435F360018D7BE /* PopularViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BAFD411D435F360018D7BE /* PopularViewController.swift */; };
+		24BAFD441D435FA40018D7BE /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BAFD431D435FA40018D7BE /* NewViewController.swift */; };
+		24BB4BF71D45566A0035D839 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 24BB4BF61D45566A0035D839 /* Podfile */; };
+		24D71E551D455848002331B6 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24D71E541D455848002331B6 /* SwiftyJSON.framework */; };
+		24D71E571D455D10002331B6 /* ImageLoader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24D71E561D455D10002331B6 /* ImageLoader.framework */; };
+		24FBEECA1D4575D70007E321 /* DayinfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24FBEEC91D4575D70007E321 /* DayinfoViewController.swift */; };
+		24FBEECE1D4609FB0007E321 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 24FBEECD1D4609FB0007E321 /* GoogleService-Info.plist */; };
+		2D669A9512E087EB3ECC446F /* Pods_Temadagar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78AA585462D3640DE6404164 /* Pods_Temadagar.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		24BAFD211D4359B00018D7BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24BAFD021D4359B00018D7BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24BAFD091D4359B00018D7BE;
+			remoteInfo = Temadagar;
+		};
+		24BAFD2C1D4359B00018D7BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24BAFD021D4359B00018D7BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24BAFD091D4359B00018D7BE;
+			remoteInfo = Temadagar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		24008A791D805C980055532D /* PopularViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopularViewCell.swift; sourceTree = "<group>"; };
+		240304A31D8043AF00A39372 /* AllViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllViewCell.swift; sourceTree = "<group>"; };
+		2413683D1DB3D6E5006DB42A /* DayInfo.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = DayInfo.storyboard; sourceTree = "<group>"; };
+		2413683F1DB3DAAD006DB42A /* New.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = New.storyboard; sourceTree = "<group>"; };
+		241368411DB3DB40006DB42A /* All.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = All.storyboard; sourceTree = "<group>"; };
+		241368431DB3DBB0006DB42A /* Popular.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Popular.storyboard; sourceTree = "<group>"; };
+		243CC3871D7F2C0E008C7F56 /* NewViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewViewCell.swift; sourceTree = "<group>"; };
+		243CC3891D7F2C1B008C7F56 /* ListItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListItem.swift; sourceTree = "<group>"; };
+		246E402E1D813A7E0026849B /* BaseTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTabBarController.swift; sourceTree = "<group>"; };
+		24BAFD0A1D4359B00018D7BE /* Temadagar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Temadagar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		24BAFD0D1D4359B00018D7BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		24BAFD141D4359B00018D7BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		24BAFD161D4359B00018D7BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		24BAFD191D4359B00018D7BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		24BAFD1B1D4359B00018D7BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24BAFD201D4359B00018D7BE /* TemadagarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TemadagarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		24BAFD241D4359B00018D7BE /* TemadagarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemadagarTests.swift; sourceTree = "<group>"; };
+		24BAFD261D4359B00018D7BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24BAFD2B1D4359B00018D7BE /* TemadagarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TemadagarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		24BAFD2F1D4359B00018D7BE /* TemadagarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemadagarUITests.swift; sourceTree = "<group>"; };
+		24BAFD311D4359B00018D7BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24BAFD3F1D435F260018D7BE /* AllViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllViewController.swift; sourceTree = "<group>"; };
+		24BAFD411D435F360018D7BE /* PopularViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopularViewController.swift; sourceTree = "<group>"; };
+		24BAFD431D435FA40018D7BE /* NewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
+		24BB4BF61D45566A0035D839 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		24D71E541D455848002331B6 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = "Temadagar/Pods/../build/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework"; sourceTree = "<group>"; };
+		24D71E561D455D10002331B6 /* ImageLoader.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageLoader.framework; path = "Temadagar/Pods/../build/Debug-iphoneos/ImageLoader/ImageLoader.framework"; sourceTree = "<group>"; };
+		24FBEEC91D4575D70007E321 /* DayinfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DayinfoViewController.swift; sourceTree = "<group>"; };
+		24FBEECD1D4609FB0007E321 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		78AA585462D3640DE6404164 /* Pods_Temadagar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Temadagar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		869336640E352348CD93DA19 /* Pods-Temadagar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Temadagar.debug.xcconfig"; path = "Temadagar/Pods/Target Support Files/Pods-Temadagar/Pods-Temadagar.debug.xcconfig"; sourceTree = "<group>"; };
+		AF46F771EEE49B5C089838FA /* Pods-Temadagar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Temadagar.release.xcconfig"; path = "Temadagar/Pods/Target Support Files/Pods-Temadagar/Pods-Temadagar.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		24BAFD071D4359B00018D7BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24D71E571D455D10002331B6 /* ImageLoader.framework in Frameworks */,
+				24D71E551D455848002331B6 /* SwiftyJSON.framework in Frameworks */,
+				2D669A9512E087EB3ECC446F /* Pods_Temadagar.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24BAFD1D1D4359B00018D7BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24BAFD281D4359B00018D7BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24BAFD011D4359B00018D7BE = {
+			isa = PBXGroup;
+			children = (
+				24BAFD0C1D4359B00018D7BE /* Temadagar */,
+				24BAFD231D4359B00018D7BE /* TemadagarTests */,
+				24BAFD2E1D4359B00018D7BE /* TemadagarUITests */,
+				24BAFD0B1D4359B00018D7BE /* Products */,
+				8D9675EA13F5E243D4C062F4 /* Pods */,
+				AD02D7224E6799F53C79FCD9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		24BAFD0B1D4359B00018D7BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				24BAFD0A1D4359B00018D7BE /* Temadagar.app */,
+				24BAFD201D4359B00018D7BE /* TemadagarTests.xctest */,
+				24BAFD2B1D4359B00018D7BE /* TemadagarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		24BAFD0C1D4359B00018D7BE /* Temadagar */ = {
+			isa = PBXGroup;
+			children = (
+				24BAFD0D1D4359B00018D7BE /* AppDelegate.swift */,
+				24BAFD491D43633C0018D7BE /* New */,
+				24BAFD451D4362D60018D7BE /* All */,
+				24BAFD481D43632E0018D7BE /* Popular */,
+				24FBEEC81D4575C30007E321 /* Dayinfo */,
+				243CC3891D7F2C1B008C7F56 /* ListItem.swift */,
+				246E402E1D813A7E0026849B /* BaseTabBarController.swift */,
+				24BAFD131D4359B00018D7BE /* Main.storyboard */,
+				24BAFD181D4359B00018D7BE /* LaunchScreen.storyboard */,
+				24BAFD161D4359B00018D7BE /* Assets.xcassets */,
+				24BAFD1B1D4359B00018D7BE /* Info.plist */,
+				24FBEECD1D4609FB0007E321 /* GoogleService-Info.plist */,
+				24BB4BF61D45566A0035D839 /* Podfile */,
+			);
+			path = Temadagar;
+			sourceTree = "<group>";
+		};
+		24BAFD231D4359B00018D7BE /* TemadagarTests */ = {
+			isa = PBXGroup;
+			children = (
+				24BAFD241D4359B00018D7BE /* TemadagarTests.swift */,
+				24BAFD261D4359B00018D7BE /* Info.plist */,
+			);
+			path = TemadagarTests;
+			sourceTree = "<group>";
+		};
+		24BAFD2E1D4359B00018D7BE /* TemadagarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				24BAFD2F1D4359B00018D7BE /* TemadagarUITests.swift */,
+				24BAFD311D4359B00018D7BE /* Info.plist */,
+			);
+			path = TemadagarUITests;
+			sourceTree = "<group>";
+		};
+		24BAFD451D4362D60018D7BE /* All */ = {
+			isa = PBXGroup;
+			children = (
+				24BAFD3F1D435F260018D7BE /* AllViewController.swift */,
+				240304A31D8043AF00A39372 /* AllViewCell.swift */,
+				241368411DB3DB40006DB42A /* All.storyboard */,
+			);
+			name = All;
+			sourceTree = "<group>";
+		};
+		24BAFD481D43632E0018D7BE /* Popular */ = {
+			isa = PBXGroup;
+			children = (
+				24BAFD411D435F360018D7BE /* PopularViewController.swift */,
+				24008A791D805C980055532D /* PopularViewCell.swift */,
+				241368431DB3DBB0006DB42A /* Popular.storyboard */,
+			);
+			name = Popular;
+			sourceTree = "<group>";
+		};
+		24BAFD491D43633C0018D7BE /* New */ = {
+			isa = PBXGroup;
+			children = (
+				24BAFD431D435FA40018D7BE /* NewViewController.swift */,
+				243CC3871D7F2C0E008C7F56 /* NewViewCell.swift */,
+				2413683F1DB3DAAD006DB42A /* New.storyboard */,
+			);
+			name = New;
+			sourceTree = "<group>";
+		};
+		24FBEEC81D4575C30007E321 /* Dayinfo */ = {
+			isa = PBXGroup;
+			children = (
+				24FBEEC91D4575D70007E321 /* DayinfoViewController.swift */,
+				2413683D1DB3D6E5006DB42A /* DayInfo.storyboard */,
+			);
+			name = Dayinfo;
+			sourceTree = "<group>";
+		};
+		8D9675EA13F5E243D4C062F4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				869336640E352348CD93DA19 /* Pods-Temadagar.debug.xcconfig */,
+				AF46F771EEE49B5C089838FA /* Pods-Temadagar.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AD02D7224E6799F53C79FCD9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				24D71E561D455D10002331B6 /* ImageLoader.framework */,
+				24D71E541D455848002331B6 /* SwiftyJSON.framework */,
+				78AA585462D3640DE6404164 /* Pods_Temadagar.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		24BAFD091D4359B00018D7BE /* Temadagar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24BAFD341D4359B00018D7BE /* Build configuration list for PBXNativeTarget "Temadagar" */;
+			buildPhases = (
+				938D8D72C0603B78F08FEF62 /* 📦 Check Pods Manifest.lock */,
+				24BAFD061D4359B00018D7BE /* Sources */,
+				24BAFD071D4359B00018D7BE /* Frameworks */,
+				24BAFD081D4359B00018D7BE /* Resources */,
+				BD84587DF70B0ABBC9C11C34 /* 📦 Embed Pods Frameworks */,
+				FA0421B20BA406D2F840BB9D /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Temadagar;
+			productName = Temadagar;
+			productReference = 24BAFD0A1D4359B00018D7BE /* Temadagar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		24BAFD1F1D4359B00018D7BE /* TemadagarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24BAFD371D4359B00018D7BE /* Build configuration list for PBXNativeTarget "TemadagarTests" */;
+			buildPhases = (
+				24BAFD1C1D4359B00018D7BE /* Sources */,
+				24BAFD1D1D4359B00018D7BE /* Frameworks */,
+				24BAFD1E1D4359B00018D7BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				24BAFD221D4359B00018D7BE /* PBXTargetDependency */,
+			);
+			name = TemadagarTests;
+			productName = TemadagarTests;
+			productReference = 24BAFD201D4359B00018D7BE /* TemadagarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		24BAFD2A1D4359B00018D7BE /* TemadagarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24BAFD3A1D4359B00018D7BE /* Build configuration list for PBXNativeTarget "TemadagarUITests" */;
+			buildPhases = (
+				24BAFD271D4359B00018D7BE /* Sources */,
+				24BAFD281D4359B00018D7BE /* Frameworks */,
+				24BAFD291D4359B00018D7BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				24BAFD2D1D4359B00018D7BE /* PBXTargetDependency */,
+			);
+			name = TemadagarUITests;
+			productName = TemadagarUITests;
+			productReference = 24BAFD2B1D4359B00018D7BE /* TemadagarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		24BAFD021D4359B00018D7BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Alvar Lagerlöf";
+				TargetAttributes = {
+					24BAFD091D4359B00018D7BE = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 8ZE68A9KAT;
+					};
+					24BAFD1F1D4359B00018D7BE = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 24BAFD091D4359B00018D7BE;
+					};
+					24BAFD2A1D4359B00018D7BE = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 24BAFD091D4359B00018D7BE;
+					};
+				};
+			};
+			buildConfigurationList = 24BAFD051D4359B00018D7BE /* Build configuration list for PBXProject "temadagar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 24BAFD011D4359B00018D7BE;
+			productRefGroup = 24BAFD0B1D4359B00018D7BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				24BAFD091D4359B00018D7BE /* Temadagar */,
+				24BAFD1F1D4359B00018D7BE /* TemadagarTests */,
+				24BAFD2A1D4359B00018D7BE /* TemadagarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		24BAFD081D4359B00018D7BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24BAFD1A1D4359B00018D7BE /* LaunchScreen.storyboard in Resources */,
+				24BAFD171D4359B00018D7BE /* Assets.xcassets in Resources */,
+				24FBEECE1D4609FB0007E321 /* GoogleService-Info.plist in Resources */,
+				2413683E1DB3D6E5006DB42A /* DayInfo.storyboard in Resources */,
+				24BB4BF71D45566A0035D839 /* Podfile in Resources */,
+				24BAFD151D4359B00018D7BE /* Main.storyboard in Resources */,
+				241368441DB3DBB0006DB42A /* Popular.storyboard in Resources */,
+				241368421DB3DB40006DB42A /* All.storyboard in Resources */,
+				241368401DB3DAAD006DB42A /* New.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24BAFD1E1D4359B00018D7BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24BAFD291D4359B00018D7BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		938D8D72C0603B78F08FEF62 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BD84587DF70B0ABBC9C11C34 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Temadagar/Pods/Target Support Files/Pods-Temadagar/Pods-Temadagar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA0421B20BA406D2F840BB9D /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Temadagar/Pods/Target Support Files/Pods-Temadagar/Pods-Temadagar-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		24BAFD061D4359B00018D7BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				240304A41D8043AF00A39372 /* AllViewCell.swift in Sources */,
+				24BAFD421D435F360018D7BE /* PopularViewController.swift in Sources */,
+				243CC38A1D7F2C1B008C7F56 /* ListItem.swift in Sources */,
+				24FBEECA1D4575D70007E321 /* DayinfoViewController.swift in Sources */,
+				24BAFD401D435F260018D7BE /* AllViewController.swift in Sources */,
+				243CC3881D7F2C0E008C7F56 /* NewViewCell.swift in Sources */,
+				246E402F1D813A7E0026849B /* BaseTabBarController.swift in Sources */,
+				24BAFD0E1D4359B00018D7BE /* AppDelegate.swift in Sources */,
+				24BAFD441D435FA40018D7BE /* NewViewController.swift in Sources */,
+				24008A7A1D805C980055532D /* PopularViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24BAFD1C1D4359B00018D7BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24BAFD251D4359B00018D7BE /* TemadagarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24BAFD271D4359B00018D7BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24BAFD301D4359B00018D7BE /* TemadagarUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		24BAFD221D4359B00018D7BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 24BAFD091D4359B00018D7BE /* Temadagar */;
+			targetProxy = 24BAFD211D4359B00018D7BE /* PBXContainerItemProxy */;
+		};
+		24BAFD2D1D4359B00018D7BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 24BAFD091D4359B00018D7BE /* Temadagar */;
+			targetProxy = 24BAFD2C1D4359B00018D7BE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		24BAFD131D4359B00018D7BE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24BAFD141D4359B00018D7BE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		24BAFD181D4359B00018D7BE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24BAFD191D4359B00018D7BE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		24BAFD321D4359B00018D7BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		24BAFD331D4359B00018D7BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		24BAFD351D4359B00018D7BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 869336640E352348CD93DA19 /* Pods-Temadagar.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Temadagar/build/Debug-iphoneos/SwiftyJSON",
+					"$(PROJECT_DIR)/Temadagar/build/Debug-iphoneos/ImageLoader",
+				);
+				INFOPLIST_FILE = Temadagar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alvarlagerlof.Temadagar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		24BAFD361D4359B00018D7BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF46F771EEE49B5C089838FA /* Pods-Temadagar.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Temadagar/build/Debug-iphoneos/SwiftyJSON",
+					"$(PROJECT_DIR)/Temadagar/build/Debug-iphoneos/ImageLoader",
+				);
+				INFOPLIST_FILE = Temadagar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alvarlagerlof.Temadagar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		24BAFD381D4359B00018D7BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TemadagarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alvarlagerlof.TemadagarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Temadagar.app/Temadagar";
+			};
+			name = Debug;
+		};
+		24BAFD391D4359B00018D7BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TemadagarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alvarlagerlof.TemadagarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Temadagar.app/Temadagar";
+			};
+			name = Release;
+		};
+		24BAFD3B1D4359B00018D7BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TemadagarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alvarlagerlof.TemadagarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Temadagar;
+			};
+			name = Debug;
+		};
+		24BAFD3C1D4359B00018D7BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TemadagarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alvarlagerlof.TemadagarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Temadagar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		24BAFD051D4359B00018D7BE /* Build configuration list for PBXProject "temadagar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24BAFD321D4359B00018D7BE /* Debug */,
+				24BAFD331D4359B00018D7BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24BAFD341D4359B00018D7BE /* Build configuration list for PBXNativeTarget "Temadagar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24BAFD351D4359B00018D7BE /* Debug */,
+				24BAFD361D4359B00018D7BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24BAFD371D4359B00018D7BE /* Build configuration list for PBXNativeTarget "TemadagarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24BAFD381D4359B00018D7BE /* Debug */,
+				24BAFD391D4359B00018D7BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24BAFD3A1D4359B00018D7BE /* Build configuration list for PBXNativeTarget "TemadagarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24BAFD3B1D4359B00018D7BE /* Debug */,
+				24BAFD3C1D4359B00018D7BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 24BAFD021D4359B00018D7BE /* Project object */;
+}
