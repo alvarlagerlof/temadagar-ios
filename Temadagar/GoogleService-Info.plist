@@ -7,21 +7,21 @@
 	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
 	<string>ca-app-pub-3940256099942544/4411468910</string>
 	<key>CLIENT_ID</key>
-	<string>1061082196448-vbules42upvglho15e8r06s44jnlohlm.apps.googleusercontent.com</string>
+	<string>476486356489-lufugdilmvtu2r64g8vrt78spqq9o1ij.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.1061082196448-vbules42upvglho15e8r06s44jnlohlm</string>
+	<string>com.googleusercontent.apps.476486356489-lufugdilmvtu2r64g8vrt78spqq9o1ij</string>
 	<key>API_KEY</key>
-	<string>AIzaSyAVsL10ojp2_tLkfxitQN1gaQsdgvmiu80</string>
+	<string>AIzaSyCIQhd2GQAgnfGJmvh3JnqyeroUbFIWOBM</string>
 	<key>GCM_SENDER_ID</key>
-	<string>1061082196448</string>
+	<string>476486356489</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.alvarlagerlof.Temadagar</string>
+	<string>com.alvarlagerlof.koda-nu</string>
 	<key>PROJECT_ID</key>
-	<string>temadagar-admin</string>
+	<string>koda-fc0a1</string>
 	<key>STORAGE_BUCKET</key>
-	<string>temadagar-admin.appspot.com</string>
+	<string>koda-fc0a1.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<true/>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -33,8 +33,8 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true/>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:1061082196448:ios:2fe7f04414fb7a30</string>
+	<string>1:476486356489:ios:66cb820cf6abb429</string>
 	<key>DATABASE_URL</key>
-	<string>https://temadagar-admin.firebaseio.com</string>
+	<string>https://koda-fc0a1.firebaseio.com</string>
 </dict>
 </plist>

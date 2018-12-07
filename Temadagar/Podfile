@@ -1,7 +1,7 @@
-platform :ios, '8.0'
+platform :ios, ‘9.0’
 use_frameworks!
 
-xcodeproj '/Users/alvar/git/temadagar-ios/Temadagar.xcodeproject/'
+xcodeproj '/Users/alvar-mac/git/temadagar-ios/Temadagar.xcodeproj/'
 
 target 'Temadagar' do
 pod 'SwiftyJSON'
